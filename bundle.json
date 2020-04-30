@@ -1,0 +1,52 @@
+{
+	"name": "web-component-d3-charts", 
+	"resources": {
+		"gauge": {
+			"gauge.tpl": {
+				"url": "gauge/gauge.tpl"
+			}, 
+			"gauge.scss": {
+				"url": "gauge/gauge.scss"
+			}, 
+			"gauge.js": {
+				"url": "gauge/gauge.js"
+			}
+		}, 
+		"bar": {
+			"bar.tpl": {
+				"url": "bar/bar.tpl"
+			}, 
+			"bar.js": {
+				"url": "bar/bar.js"
+			}, 
+			"bar.scss": {
+				"url": "bar/bar.scss"
+			}
+		}, 
+		"line": {
+			"line.scss": {
+				"url": "line/line.scss"
+			}, 
+			"line.js": {
+				"url": "line/line.js"
+			}, 
+			"line.tpl": {
+				"url": "line/line.tpl"
+			}
+		}, 
+		"donut": {
+			"donut.js": {
+				"url": "donut/donut.js"
+			}, 
+			"donut.scss": {
+				"url": "donut/donut.scss"
+			}, 
+			"donut.tpl": {
+				"url": "donut/donut.tpl"
+			}
+		}, 
+		"d3.v5.js": {
+			"url": "d3.v5.js"
+		}
+	}
+}

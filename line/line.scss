@@ -1,0 +1,15 @@
+.legend-entry.hidden {
+	fill: $disabled-color;
+}
+.legend-entry {
+	cursor: pointer;
+}
+
+.data-line {
+	svg {
+		.line-x-value {
+			font-size: 0.7rem;
+			fill: #666;
+		}
+	}
+}

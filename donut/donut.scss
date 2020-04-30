@@ -1,0 +1,70 @@
+[template="data-donut"], [template="data-bar"], [template="data-line"], [template="data-gauge"], .data-donut, .data-bar, .data-line, .data-gauge {
+	height: 100%;
+	svg {
+		margin: auto;
+		//-webkit-filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.3) );
+		//filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.25) );
+		overflow: visible;
+	}
+}
+.d3-tooltip {
+	padding: 0.5rem 0.7rem;
+	background-color: #f7f8e0;
+	color: #333;
+	dl {
+		margin: 0;
+		.page-field {
+			&+.page-field {
+				margin-top: 0.3rem;
+			}
+			display: flex;
+			justify-content: space-between;
+		}
+		dt {
+			display: inline-block;
+			font-weight: bold;
+			&:after {
+				content: ': ';
+			}
+			margin-right: 0.3rem;
+			font-size: 0.6rem;
+			text-transform: uppercase;
+		}
+		dd {
+			margin-left: 0.3rem;
+			display: inline-block;
+			font-size: 0.6rem;
+			text-transform: uppercase;
+		}
+	}
+	border: $border;
+	border-radius: 5px;
+}
+.data-donut {
+	.content {
+		font-family: 'Roboto', sans-serif;
+		color: #333333;
+		text-align: center;
+		.settings {
+			text-align: left;
+		}
+	}
+
+	polyline {
+		opacity: .3;
+		stroke: black;
+		stroke-width: 2px;
+		fill: none;
+	}
+
+	
+	// we can add a tspan after the label as a unit
+	.labelName tspan {
+		font-style: normal;
+		font-weight: 700;
+	}
+
+	.labelName {
+		font-size: 0.9em;
+	}
+}
